@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@khinshankhan/emoji-helper",
+  "description": "The one-stop to emoji 💃",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "khinshankhan/emoji-helper",
+  "keywords": [],
+  "bugs": "https://github.com/khinshankhan/emoji-helper/issues",
+  "author": "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)",
+  "contributors": [
+    "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)"
+  ]
+}
