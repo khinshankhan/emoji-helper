@@ -20,6 +20,21 @@ importers:
         specifier: ^5.1.3
         version: 5.1.3
 
+  packages/emoji-helper-pack-github:
+    devDependencies:
+      '@khinshankhan/emoji-helper-core':
+        specifier: workspace:^
+        version: link:../emoji-helper-core
+      '@types/node':
+        specifier: ^20.3.1
+        version: 20.3.1
+      tsup:
+        specifier: ^6.7.0
+        version: 6.7.0(typescript@5.1.3)
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.3
+
   packages/emoji-helper-remark:
     dependencies:
       unist-util-visit:

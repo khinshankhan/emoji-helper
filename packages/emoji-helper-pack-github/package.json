@@ -1,0 +1,30 @@
+{
+  "name": "@khinshankhan/emoji-helper-pack-github",
+  "version": "0.0.1",
+  "description": "Emoji pack using GitHub's assets",
+  "license": "MIT",
+  "repository": "khinshankhan/emoji-helper",
+  "keywords": [],
+  "bugs": "https://github.com/khinshankhan/emoji-helper/issues",
+  "author": "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)",
+  "contributors": [
+    "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@khinshankhan/emoji-helper-core": "workspace:^",
+    "@types/node": "^20.3.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  },
+  "peerDependencies": {
+    "@khinshankhan/emoji-helper-core": "workspace:^"
+  }
+}
