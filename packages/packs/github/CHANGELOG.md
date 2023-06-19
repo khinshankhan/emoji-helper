@@ -1,5 +1,16 @@
 # @khinshankhan/emoji-helper-pack-github
 
+## 3.0.0
+
+### Major Changes
+
+- Fix bad deploy
+
+### Patch Changes
+
+- Updated dependencies
+  - @khinshankhan/emoji-helper-core@3.0.0
+
 ## 2.0.0
 
 ### Major Changes

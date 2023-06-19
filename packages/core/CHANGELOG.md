@@ -1,5 +1,11 @@
 # @khinshankhan/emoji-helper-core
 
+## 3.0.0
+
+### Major Changes
+
+- Fix bad deploy
+
 ## 2.0.0
 
 ### Major Changes
