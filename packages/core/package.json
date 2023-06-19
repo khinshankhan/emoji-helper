@@ -1,6 +1,6 @@
 {
   "name": "@khinshankhan/emoji-helper-core",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The heart of emoji-helper",
   "license": "MIT",
   "repository": "khinshankhan/emoji-helper",
@@ -10,8 +10,9 @@
   "contributors": [
     "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
