@@ -12,5 +12,8 @@
   "author": "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)",
   "contributors": [
     "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
 }
