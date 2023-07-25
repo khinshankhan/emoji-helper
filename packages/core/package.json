@@ -3,7 +3,11 @@
   "version": "3.0.0",
   "description": "The heart of emoji-helper",
   "license": "MIT",
-  "repository": "khinshankhan/emoji-helper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khinshankhan/emoji-helper.git",
+    "directory": "packages/core"
+  },
   "keywords": [],
   "bugs": "https://github.com/khinshankhan/emoji-helper/issues",
   "author": "Khinshan Khan <shan@uptogood.dev> (https://uptogood.dev)",
