@@ -1,5 +1,11 @@
 # @khinshankhan/emoji-helper-remark
 
+## 3.0.1
+
+### Patch Changes
+
+- add readmes
+
 ## 3.0.0
 
 ### Major Changes
