@@ -1,5 +1,11 @@
 # @khinshankhan/emoji-helper-pack-github
 
+## 3.0.2
+
+### Patch Changes
+
+- revert from json to ensure const types are properly propagated
+
 ## 3.0.1
 
 ### Patch Changes
