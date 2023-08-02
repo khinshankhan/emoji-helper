@@ -1,5 +1,11 @@
 # @khinshankhan/emoji-helper-pack-github
 
+## 3.0.4
+
+### Patch Changes
+
+- rebuild package optimally
+
 ## 3.0.3
 
 ### Patch Changes
