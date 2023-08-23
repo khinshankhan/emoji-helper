@@ -18,3 +18,10 @@ Several packages for custom emoji manipulation and utility, designed framework a
 
 - [emoji-helper-pack-github](./packages/packs/github)
   > Emoji pack using GitHub's assets
+
+## TODO
+
+- change emoji metadata to be based on https://github.com/googlefonts/emoji-metadata
+- allow emoji to be grouped by `group`, which can create an 'emoji mart'
+- add an example app to clearly show usage
+- rephrase to emphasize these libraries allow full control and you can use tweemoji or whatever you'd like
