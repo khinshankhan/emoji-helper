@@ -1,6 +1,6 @@
 {
   "name": "@khinshankhan/emoji-helper-remark",
-  "version": "3.0.1",
+  "version": "3.1.1",
   "description": "Remark markdown transformer to replace :emoji: in text with jsx",
   "license": "MIT",
   "repository": {

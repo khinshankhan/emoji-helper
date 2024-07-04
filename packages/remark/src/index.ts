@@ -38,7 +38,7 @@ function createMdxNode(
   };
 }
 
-export const extractEmojiRegex = /(:[_a-zA-Z]+:)/gm;
+export const extractEmojiRegex = /(:[+\-_a-zA-Z0-9]+:)/gm;
 
 const defaultOptions = {
   jsx: true,
