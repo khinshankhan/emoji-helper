@@ -4,8 +4,11 @@
   "description": "The one-stop to emoji 💃",
   "license": "MIT",
   "scripts": {
-    "prerelease": "pnpm run -r lint && pnpm run -r build",
-    "release": "changeset publish",
+    "build": "pnpm run -r lint && pnpm run -r build",
+    "changeset": "changeset",
+    "c:status": "pnpm exec changeset status --verbose",
+    "c:version": "pnpm exec changeset version",
+    "c:publish": "changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "khinshankhan/emoji-helper",
