@@ -46,6 +46,7 @@ const defaultOptions = {
   jsxAttribute: "name",
   validate: (_name: string) => false,
   lookup: (name: string) => name,
+  extractEmojiRegex,
 };
 
 export function remarkSimpleEmoji(
@@ -70,7 +71,7 @@ export function remarkSimpleEmoji(
       const nodeValue: string | undefined = node.value;
       if (!nodeValue) return;
 
-      const matches = Array.from(nodeValue.matchAll(extractEmojiRegex));
+      const matches = Array.from(nodeValue.matchAll(options.extractEmojiRegex));
       if (matches.length === 0) return;
 
       const emptied = [...matches].reverse().reduce(
